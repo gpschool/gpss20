@@ -5,7 +5,7 @@ title: Program
 	
 <article>
 
-  {% if site.draft %}
+  {% if site.conference.draft %}
   <h2>Draft Version</h2>
   {% endif %}
  
@@ -15,8 +15,6 @@ title: Program
   {% for post in site.posts reversed %}
   {% if post.layout == "workshop"%}
   <li style='margin-bottom:0.5em'><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> ({% if post.organizers %}{% for organizer in post.organizers %}{% if organizer.url %}<a href="{{ organizer.url }}">{% endif %}{{ organizer.firstname }} {{ organizer.lastname }}{% if organizer.url %}</a>{% endif %}{% if post.organizers | size>1 %}, {% endif %}{% endfor %}{% endif %} {{ post.date | date: "%A, %B %-d" }})<br>Room: <b>{{ post.room }}</b></li>
-  {% elsif post.tagline == "Single track symposium" %}
-        <li style='margin-bottom:0.5em'><a href="{{ post.url | prepend: site.baseurl }}">Single Track Symposium</a> ({{ post.date | date: "%A, %B %-d" }})<br> Room: <b>{{ post.room }}</b></li>
   {% endif %}
   {% endfor %}
     </ul>
@@ -24,7 +22,7 @@ title: Program
   <br>
     
   {% for post in site.posts reversed %}
-  {% if post.layout == "day" %}
+  {% if post.layout == "session" %}
   <br>    
   <p><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%A, %B %-d" }}</a>  <i>{{ post.tagline }}</i> </p>
   
