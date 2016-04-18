@@ -22,7 +22,8 @@ analytics:
    tracking_id: # Google tracking ID if applicable
 
 conference:
-  venue: City, Country
+  venue: Convention Centre
+  location: City, Country
   name: Conference Name
   year: 2017
   month: September
@@ -30,8 +31,6 @@ conference:
   - 2017-09-12
   - 2017-09-13
   draft: true # set to True if the programme is draft only.
-  name: CONF 2017 - Conference Name
-  location: Conference Venue
   hosts:
   organizers:
   - name: Jack Jones
