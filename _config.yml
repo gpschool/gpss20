@@ -18,6 +18,10 @@ future: true
 permalink: "/:categories/:title.html"
 banner: nice_conference_banner.jpeg
 
+analytics:
+ google:
+   tracking_id: # Google tracking ID if applicable
+
 conference:
   location: City, Country
   year: 2017
