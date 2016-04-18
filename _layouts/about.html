@@ -4,9 +4,9 @@ layout: page
 
 <article>
 	  
-
-  <p>{{ site.tagline }}</p>
-     
+  {% if site.description %}
+  <p>{{ site.description }}</p>
+  {% endif %}   
   
   {{ content }}
 
