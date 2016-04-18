@@ -27,7 +27,7 @@ title: Program
   <p><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%A, %B %-d" }}</a>  <i>{{ post.tagline }}</i> </p>
   
   {% for talk in post.talks %}
-  <p>{{ talk.start }} {% if talk.end %}- {{ talk.end }}{% endif %} <b>{{ talk.title }}</b> {{ talk.speaker }} </p>
+  {% include talk.html %}
   {% endfor %}
   {% endif %}
   {% endfor %}

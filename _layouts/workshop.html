@@ -27,11 +27,9 @@ layout: default
     </p>
     {% endif %}
       
-<!--    talks list-->
+    <!--    talks list-->
     {% for talk in page.talks %}
-    <br>{{ talk.start }}{% if talk.end %}- {{ talk.end }}{% endif %} <b>{% if talk.abstract and page.show_abstracts%}<a class='talk' href='#{{talk.speaker}}'>{{ talk.title }}</a>{% else %}{{talk.title}}{% endif %}</b> {{ talk.speaker }}{% if talk.slides %} [<a href="{{ site.url }}{{ site.baseurl }}/slides/{{ talk.slides }}">slides</a>]{% endif %}</br> 
-    {% if talk.youtube %} <iframe width="{{ site.youtube.width }}" height="{{ site.youtube.height }}" src="https://www.youtube.com/embed/{{ talk.youtube }}" frameborder="0" allowfullscreen></iframe>
-    {% endif %}
+    {% include talk.html %}
     {% endfor %}
 
 
@@ -41,7 +39,7 @@ layout: default
     <br>
     <br>
     <h1 style='font-size:2em'>Abstracts</h1>
-<!--    abstracts-->
+    <!--    abstracts-->
     {% for talk in page.talks %}
         {% if talk.abstract or talk.bio %}
 
