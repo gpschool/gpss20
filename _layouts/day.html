@@ -1,0 +1,65 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.tagline %} • {{ page.tagline }}{% endif %}</p>
+    
+  </header>
+  
+  <article class="post-content">
+
+    {% if site.draft %}
+    <h2>Draft Schedule</h2>
+    {% endif %}
+
+    {{ content }}
+
+    {% for post in site.posts %}
+    {% unless post.layout == "day" %}
+    {% if post.date == page.date %}
+    <p><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a></p>
+    {% endif %}
+    {% endunless %}
+    {% endfor %}
+    
+    {% if page.room %}
+    <h3>
+        Room: {{ page.room }}
+    </h3>
+    <br>
+    {% endif %}
+
+    {% for talk in page.talks %}
+    <br>{{ talk.start }} {% if talk.end %}- {{ talk.end }}{% endif %}  <b>{% if talk.abstract and page.show_abstracts%}<a class='talk' href='#{{talk.speaker}}'>{{ talk.title }}</a>{% else %}{{talk.title}}{% endif %}</b> {{ talk.speaker }}</br>
+    {% endfor %}
+    
+    
+    {% if page.show_abstracts %}
+    <br>
+    <br>
+    <br>
+    <h1 style='font-size:2em'>Abstracts</h1>
+<!--    abstracts-->
+    {% for talk in page.talks %}
+        {% if talk.abstract %}
+
+        <br>
+<h4 id='{{talk.speaker}}' style='margin-bottom:0'><b>{{ talk.title }}</b></h4>
+            {{ talk.speaker }}
+
+
+            <p style='margin-top:1em'>
+                {{ talk.abstract }}
+            </p>
+        </br>
+        {% endif %}
+    {% endfor %}
+
+    {% endif %}
+
+  </article>
+
+</div>

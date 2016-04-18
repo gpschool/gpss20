@@ -1,0 +1,103 @@
+---
+layout: page
+---
+
+<article>
+	  
+
+  <p>The idea of the Gaussian process summer school is to bring together students interested in developing their knowledge in one location for introduction and advanced discussion of the issues in Gaussian process modelling.</p>
+     
+  
+  {{ content }}
+
+
+  {% if site.conference.sponsors %}
+  <p><strong>Sponsors</strong></p>
+  <p>This event is sponsored and co-organized by
+  {% for sponsor in site.conference.sponsors %}
+  <br>{% include listsponsor.html %}</br>
+  {% endfor %}
+  {% endif %}
+  </p>
+
+
+  <p><strong>Organizers</strong></p>
+
+  {% if site.conference.organizers %}
+  {% assign lastone = site.conference.organizers | last %}
+  {% for person in site.conference.organizers %}
+  {% include listperson.html %}
+  {% endfor %}</p>
+  {% endif %}
+
+  {% if site.conference.local %}
+  {% assign lastone = site.conference.local | last %}
+  <p>Local Chair:
+  {% for person in site.conference.local %}
+  {% include listperson.html %}
+  {% endfor %}</p>
+  {% endif %}
+
+  {% if site.conference.general %}
+  {% assign lastone = site.conference.general | last %}
+  <p>General Chair:
+  {% for person in site.conference.general %}
+  {% include listperson.html %}
+  {% endfor %}</p>
+  {% endif %}
+
+  {% if site.conference.symposium %}
+  {% assign lastone = site.conference.symposium | last %}
+  <p>Symposium Chair:
+  {% for person in site.conference.symposium %}
+  {% include listperson.html %}
+  {% endfor %}</p>
+  {% endif %}
+
+  {% if site.conference.workshop %}
+  {% assign lastone = site.conference.workshop | last %}
+  <p>Workshops Chair:
+  {% for person in site.conference.workshop %}
+  {% include listperson.html %}
+  {% endfor %}</p>
+  {% endif %}
+
+  {% if site.conference.fundraising %}
+  {% assign lastone = site.conference.fundraising | last %}
+  <p>Fundraising Chair:</p>
+  {% for person in site.conference.fundraising %}
+  {% include listperson.html %}
+  {% endfor %}
+  {% endif %}
+
+  {% if site.conference.assistants %}
+  {% assign lastone = site.conference.assistants | last %}
+  <p><strong>Organization Assistants</strong></p>
+  {% for person in site.conference.assistants %}
+  {% include listperson.html %}<br>
+  {% endfor %}</p>
+  {% endif %}
+
+  {% if site.conference.steering %}
+  {% assign lastone = site.conference.steering | last %}
+  <p><strong>Steering Committee</strong></p>
+  {% for person in site.conference.steering %}
+  {% include listperson.html %}
+  {% endfor %}</p>
+  {% endif %}
+
+</article>
+
+
+
+
+      </div><!-- #content -->
+    </div><!-- #primary -->
+    
+    
+    
+
+  </div><!-- .inner-wrap -->
+</div><!-- #main -->  
+
+

@@ -1,0 +1,1 @@
+{% if person.url %}<a href="{{ person.url }}">{% endif %}{{ person.name }}{% if person.url %}</a>{% endif %} {{ person.institute }}{% unless person == lastone %}, {% endunless %}
