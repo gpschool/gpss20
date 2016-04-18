@@ -1,0 +1,17 @@
+---
+layout: page
+---
+<article>
+
+  <p>Registration for {{ site.conference.name }}, {{ site.conference.year }}.</p>
+
+  {{ content }}
+  
+  {% if site.conference.registration_url %}
+  <h3>Registration Site</h3>
+  <a href="{{ site.conference.registration_url }}">Register here</a>
+  {% endif %}
+
+</article>
+
+

@@ -1,0 +1,12 @@
+--
+layout: page
+--	  
+
+{% if site.conference.room %}
+The {{site.conference.year }} {{ site.conference.name }} will take place in {{ site.conference.room }}.
+{% endif %}
+
+{{ content }}
+
+{% include map.html %}
+	  
