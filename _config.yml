@@ -1,6 +1,5 @@
 # Site settings
 title: Conference Name, Year
-venue: City, Country
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Write a description for your conference or meeting here. You can edit this
@@ -23,7 +22,8 @@ analytics:
    tracking_id: # Google tracking ID if applicable
 
 conference:
-  location: City, Country
+  venue: City, Country
+  name: Conference Name
   year: 2017
   month: September
   dates:
