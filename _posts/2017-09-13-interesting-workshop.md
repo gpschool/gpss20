@@ -5,7 +5,7 @@ tagline: Tagline
 show_abstracts: true
 room: Room Number
 talks:
-- title: "What I learnt from Ungle Bilbo"
+- title: "What I learnt from Uncle Bilbo"
   speaker: "Frodo Baggins"
   url: "http://frodobaggins.com"
   institute: "University of Middle Earth"
