@@ -1,0 +1,6 @@
+<li><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%A, %B %-d" }}</a>  <i>{{ post.tagline }}</i> 
+
+{% for talk in post.talks %}
+{% include listtalk.html %}
+{% endfor %}
+</li>
