@@ -11,10 +11,11 @@ layout: default
   <article class="post-content">
     <p>{% if page.organizer_url %}<a href="{{ page.organizer_url }}">Organizer's workshop page</a>{% endif %}</p>
 
-    <h3>
-        Room: {{ page.room }}
-    </h3>
-    <br>
+    {% if page.room %}
+    <h3>Room: {{ page.room }}</h3>
+    {% elsif site.conference.room %}
+    <h3>Room: {{ site.conference.room }}</h3>
+    {% endif %}
       
     {% if page.speakers %}
     <p>
@@ -29,7 +30,7 @@ layout: default
       
     <!--    talks list-->
     {% for talk in page.talks %}
-    {% include talk.html %}
+    {% include listtalk.html %}
     {% endfor %}
 
 

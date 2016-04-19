@@ -17,8 +17,8 @@ layout: default
 
     {{ content }}
 
-    {% for post in site.posts %}
-    {% unless post.layout == "day" %}
+    {% for post in site.posts reversed %}
+    {% unless post.layout == "session" %}
     {% if post.date == page.date %}
     <p><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a></p>
     {% endif %}
@@ -26,21 +26,17 @@ layout: default
     {% endfor %}
     
     {% if page.room %}
-    <h3>
-        Room: {{ page.room }}
-    </h3>
-    <br>
+    <h3>Room: {{ page.room }}</h3>
+    {% elsif site.conference.room %}
+    <h3>Room: {{ site.conference.room }}</h3>
     {% endif %}
 
     {% for talk in page.talks %}
-    {% include talk.html %}
+    {% include listtalk.html %}
     {% endfor %}
     
     
     {% if page.show_abstracts %}
-    <br>
-    <br>
-    <br>
     <h1 style='font-size:2em'>Abstracts</h1>
 <!--    abstracts-->
     {% for talk in page.talks %}
