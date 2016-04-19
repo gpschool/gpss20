@@ -8,7 +8,7 @@ talks:
 - title: "Magical Goldsmithery"
   speaker: "Sauron"
   url: "http://sauron.com"
-  institute: "University of Middle Earth"
+  institute: "Mount Doom Technical College"
   abstract: 
   start: "9:00"
   end: "10:30"
