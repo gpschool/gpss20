@@ -6,7 +6,7 @@ This is a repository for easily creating conferences. To create your own confere
 ```
 $ git clone --bare https://github.com/sods/confweb.git
 $ cd confweb.git
-$ git push --mirrow https://github.com/username/confname.git
+$ git push --mirror https://github.com/username/confname.git
 $ cd ..
 $ rm -rf confweb.git
 ```
