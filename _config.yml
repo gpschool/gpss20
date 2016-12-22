@@ -11,6 +11,16 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 
+youtube:
+  height: 315
+  width: 560
+
+github:
+  edit: true
+  repository: confweb
+  
+markdown: kramdown
+
 # Build settings
 future: true
 
@@ -26,6 +36,10 @@ youtube:
   width: 560
 
 conference:
+  draft: true
+  hide_tentative: true
+  hosts:
+  
   room: Room
   venue: Convention Centre
   location: City, Country
@@ -37,11 +51,27 @@ conference:
   - 2017-09-13
   draft: true # set to True if the programme is draft only.
   hosts:
-  organizers:
+  general:
   - name: Jack Jones
     url: "http://jackjones.org"
   - name: Bill Bloggs
     url: "http://billblogs.org"
+  workshop:
+  - name:
+    url:
+  symposium:
+  - name:
+    url:
+    institute:
+  local:
+  - name:
+    url:
+  sponsors:
+  - name:
+    url:
+previous_meeting:
+  name:
+  url:
 
 map:
   show: False
