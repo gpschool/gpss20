@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/confweb" # the subpath of your site, e.g. /blog/
 url: "http://opendsi.cc" # the base hostname & protocol for your site
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  sods
 
 
 youtube:
