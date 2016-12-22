@@ -1,13 +1,30 @@
 ---
 layout: page
 ---	  
+<article>
 
-{% if site.conference.room %}
-The {{site.conference.year }} {{ site.conference.name }} will take place in {{ site.conference.room }}, {{ site.conference.venue }}, {{ site.conference.location }}.
-{% endif %}
 
-{{ content }}
 
-{% if site.map.show %}
-{% include map.html %}
-{% endif %}	  
+The {{ site.conference.name }} conference will take place in the {{site.conference.venue }} hotel, {{ site.conference.location }}.
+From {{ site.conference.dates[0] | date: "%A %B, %-d %Y" }} to  {{ site.conference.dates.last | date: "%A %B, %-d %Y" }}.
+
+
+<br>
+<br>
+
+<p>
+<a href="https://www.google.com/maps/d/u/1/embed?mid=16KlJ1LBjuox7Ded6JKSL6ttMGkU">
+<img border="0" src="assets/Map.png" width="75%" height="75%">
+</a>
+</p>
+     <br>
+    <br>
+    <p> The hotel is situated in the south of Tenerife on Costa Adeje:
+<ul>
+  <li>27 Km from Tenerife Sur Airport</li>
+  <li>85 Km from Tenerife Norte Airport</li>
+</ul> 
+    </p>
+
+</article>
+

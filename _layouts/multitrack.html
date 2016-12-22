@@ -5,7 +5,9 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">({% if page.organizers %}{% for organizer in page.organizers %}{% if organizer.url %}<a href="{{ organizer.url }}">{% endif %}{{ organizer.firstname }} {{ organizer.lastname }}{% if organizer.url %}</a>{% endif %}{% if page.organizers | size>1 %}, {% endif %}{% endfor %}{% endif %} {{ page.date | date: "%b %-d" }})</p>
+    {% include edit_link.html %}
+      
+    <p class="post-meta">({% if page.organizers %}{% assign lastone = page.organizers | last %}{% for person in page.organizers %}{% include listperson.html %}{% endfor %}{% endif %} {{ page.date | date: "%b %-d" }})</p>
   </header>
 
   <article class="post-content">

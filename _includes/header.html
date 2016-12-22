@@ -3,6 +3,7 @@
   <div class="wrapper">
 
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    {% if site.banner or page.banner %}<div class="header-image-wrap"><div class="inner-wrap"><img src="{% if page.banner %}{{ page.banner | prepend: "/assets/" | prepend: site.baseurl }}{% else %}{{ site.banner | prepend: "/assets/" }}{% endif %}" class="header-image" width="1280" height="290" alt="{{ site.title }}"></div>{% endif %}
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -14,11 +15,11 @@
       </a>
 
       <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
+        {% assign pages = site.pages | sort:"weight"  %}     
+        {% for p in pages%}
+          <a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+  	{% endfor %}
+        <a class="page-link" href="{{ site.previous_meeting.url }}">{{ site.previous_meeting.name }}</a> 
       </div>
     </nav>
 
