@@ -1,9 +1,11 @@
 ---
 title:  Interesting Workshop
 layout: multitrack
+organizer_url: 
 tagline: Tagline
 show_abstracts: true
 room: Room Number
+show_abstracts: false
 talks:
 - title: "What I learnt from Uncle Bilbo"
   speaker: "Frodo Baggins"
