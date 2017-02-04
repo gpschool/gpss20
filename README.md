@@ -6,20 +6,18 @@ This is a repository for easily creating conferences. To create your own confere
 ```
 $ git clone --bare https://github.com/sods/confweb.git
 $ cd confweb.git
-$ git push --mirror https://github.com/username/confname.git
+$ git push --mirror https://github.com/USERNAME/CONFNAME.git
 $ cd ..
 $ rm -rf confweb.git
+$ git clone https://github.com/USRNAME/CONFNAME.git
+$ cd CONFNAME
+$ gith checkout gh-pages
 ```
 
 Then you can clone the new website as normal.
 
 The main settings can be found in the ```_config.yml``` file. They include conference location, name, year, days of operation.
 
-To create the conference site, the base site is created with
-
-```
-$ jekyll site new .
-```
 
 Then a few layout files are added
 
