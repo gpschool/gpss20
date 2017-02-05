@@ -19,7 +19,9 @@
         {% for p in pages%}
           <a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
   	{% endfor %}
-        <a class="page-link" href="{{ site.previous_meeting.url }}">{{ site.previous_meeting.name }}</a> 
+	{% if site.previous_meeting.url %}  
+          <a class="page-link" href="{{ site.previous_meeting.url }}">{{ site.previous_meeting.name }}</a>
+	{% endif %}
       </div>
     </nav>
 
