@@ -11,7 +11,7 @@ $ cd ..
 $ rm -rf confweb.git
 $ git clone https://github.com/USRNAME/CONFNAME.git
 $ cd CONFNAME
-$ gith checkout gh-pages
+$ git checkout gh-pages
 ```
 
 Then you can clone the new website as normal.
