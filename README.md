@@ -9,7 +9,7 @@ $ cd confweb.git
 $ git push --mirror https://github.com/USERNAME/CONFNAME.git
 $ cd ..
 $ rm -rf confweb.git
-$ git clone https://github.com/USRNAME/CONFNAME.git
+$ git clone https://github.com/USERNAME/CONFNAME.git
 $ cd CONFNAME
 $ git checkout gh-pages
 ```
