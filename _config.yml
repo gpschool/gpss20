@@ -36,7 +36,7 @@ youtube:
   width: 560
 
 conference:
-  draft: true
+  draft: true # set to True if the programme is draft only.
   hide_tentative: true
   hosts:
   
@@ -49,7 +49,6 @@ conference:
   dates:
   - 2017-09-12
   - 2017-09-13
-  draft: true # set to True if the programme is draft only.
   hosts:
   general:
   - name: Jack Jones
