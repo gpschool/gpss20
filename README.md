@@ -1,4 +1,4 @@
-Confweb
+_confweb
 ---
 
 This is a repository for easily creating conferences. To create your own conference create a repo in your username with your confname then type.
