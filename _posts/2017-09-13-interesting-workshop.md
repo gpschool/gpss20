@@ -8,9 +8,11 @@ room: Room Number
 show_abstracts: false
 talks:
 - title: "What I learnt from Uncle Bilbo"
-  speaker: "Frodo Baggins"
-  url: "http://frodobaggins.com"
-  institute: "University of Middle Earth"
+  author:
+  - family: Baggins
+    given: Frodo
+    url: "http://frodobaggins.com"
+    institute: "University of Middle Earth"
   abstract: 
   start: "9:00"
   end: "10:30"
