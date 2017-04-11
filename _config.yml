@@ -55,7 +55,7 @@ conference:
     given: Jack
     url: "http://jackjones.org"
   - family: Bloggs
-    name: Bill
+    given: Bill
     url: "http://billblogs.org"
   workshop:
   - family:
