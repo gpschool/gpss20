@@ -6,9 +6,10 @@ show_abstracts: true
 room: Room Number
 talks:
 - title: "Magical Goldsmithery"
-  speaker: "Sauron"
-  url: "http://sauron.com"
-  institute: "Mount Doom Technical College"
+  author:
+  - family: Sauron
+    url: http://sauron.com
+    institute: Mount Doom Technical College
   abstract: 
   start: "9:00"
   end: "10:30"
