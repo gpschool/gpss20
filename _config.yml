@@ -51,20 +51,27 @@ conference:
   - 2017-09-13
   hosts:
   general:
-  - name: Jack Jones
+  - family: Jones
+    given: Jack
     url: "http://jackjones.org"
-  - name: Bill Bloggs
+  - family: Bloggs
+    name: Bill
     url: "http://billblogs.org"
   workshop:
-  - name:
+  - family:
+    given:
     url:
+    institute:
   symposium:
-  - name:
+  - family:
+    given:
     url:
     institute:
   local:
-  - name:
+  - family:
+    given:
     url:
+    institute:
   sponsors:
   - name:
     url:
