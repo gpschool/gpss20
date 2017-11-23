@@ -3,7 +3,7 @@
   <div class="wrapper">
 
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-    {% if site.banner or page.banner %}<div class="header-image-wrap"><div class="inner-wrap"><img src="{% if page.banner %}{{ page.banner | prepend: "/assets/" | prepend: site.baseurl }}{% else %}{{ site.banner | prepend: "/assets/" }}{% endif %}" class="header-image" width="1280" height="290" alt="{{ site.title }}"></div>{% endif %}
+    {% if site.banner or page.banner %}<div class="header-image-wrap"><div class="inner-wrap"><img src="{% if page.banner %}{{ page.banner | prepend: "/assets/" | prepend: site.baseurl }}{% else %}{{ site.banner | prepend: "/assets/" | prepend: site.baseurl }}{% endif %}" class="header-image" width="1280" height="290" alt="{{ site.title }}"></div>{% endif %}
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
