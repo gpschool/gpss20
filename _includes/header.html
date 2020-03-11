@@ -1,9 +1,31 @@
 <header class="site-header">
 
-  <div class="wrapper">
+  {% if site.logo %}
+	  <table summary="header table">
+		  <tr>
+		      <td id="headerLeft">
+				<div id="headerCrest">
+			    <a href="{{ site.url }}/"><img src="{{ site.url }}/{{ site.logo }}" width="150" alt="Logo" /></a>
+				</div>
+		      </td><td id="headerRight">
+				<!-- page heading  -->
+				<div id="headerTitle">
+				  <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+				</div>
+		      </td>
+		   </tr><tr>
+	      		<td><!--intentionally empty --></td>
+	      		<td>
+	      	  		<div class="site-sub-title">IUDICIUM POSTERIUM DISCIPULUS EST PRIORIS</div>
+	      		</td>
+			  </tr>
+     </table>
+  {% endif %}
 
+  <div class="wrapper">
+	 {% unless site.logo %}
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-    {% if site.banner or page.banner %}<div class="header-image-wrap"><div class="inner-wrap"><img src="{% if page.banner %}{{ page.banner | prepend: "/assets/" | prepend: site.baseurl }}{% else %}{{ site.banner | prepend: "/assets/" | prepend: site.baseurl }}{% endif %}" class="header-image" width="1280" height="290" alt="{{ site.title }}"></div>{% endif %}
+    {% if site.banner or page.banner %}<div class="header-image-wrap"><div class="inner-wrap"><img src="{% if page.banner %}{{ page.banner | prepend: "/assets/" | prepend: site.baseurl }}{% else %}{{ site.banner | prepend: "/assets/" | prepend: site.baseurl }}{% endif %}" class="header-image" width="1280" height="290" alt="{{ site.title }}"></div>{% endif %}{% endunless %}
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -15,7 +37,7 @@
       </a>
 
       <div class="trigger">
-        {% assign pages = site.pages | sort:"weight"  %}     
+        {% assign pages = site.pages | sort:"weight"  %}
         {% for p in pages%}
           <a class="page-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
   	{% endfor %}
