@@ -1,14 +1,13 @@
 # Site settings
-title: Conference Name, Year
-email: your-email@domain.com
+title: Gaussian Process and Uncertainty Quantification Summer School, 2020
+email:
 description: > # this means to ignore newlines until "baseurl:"
-  Write a description for your conference or meeting here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/_confweb" # the subpath of your site, e.g. /blog/
-url: "http://opendsi.cc" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  sods
+  Gaussian Process Summer School
+baseurl: "/gpss20" # the subpath of your site, e.g. /blog/
+url: "http://gpss.cc" # the base hostname & protocol for your site
+logo: "gpss_logo.svg"
+twitter_username: sheffieldmlnet
+github_username:  gpschool
 
 
 youtube:
@@ -17,75 +16,65 @@ youtube:
 
 github:
   edit: true
-  repository: _confweb
-  
+  repository: gpss19
+
 markdown: kramdown
 
 # Build settings
 future: true
 
 permalink: "/:categories/:title.html"
-banner: nice_conference_banner.jpeg
+banner:
 
 analytics:
  google:
-   tracking_id: # Google tracking ID if applicable
+   tracking_id: UA-62991754-1# Google tracking ID if applicable
 
 youtube:
   height: 315
   width: 560
 
 conference:
-  draft: true # set to True if the programme is draft only.
+  draft: false # set to True if the programme is draft only.
   hide_tentative: true
   hosts:
-  
-  room: Room
-  venue: Convention Centre
-  location: City, Country
-  name: Conference Name
-  year: 2017
+
+  room: Pam Liversidge Building, PLB-E05
+  venue: The University of Sheffield
+  location: Sheffield, UK
+  name: Gaussian Process Summer School
+  year: 2020
   month: September
   dates:
-  - 2017-09-12
-  - 2017-09-13
-  hosts:
-  general:
-  - family: Jones
-    given: Jack
-    url: "http://jackjones.org"
-  - family: Bloggs
-    given: Bill
-    url: "http://billblogs.org"
-  workshop:
-  - family:
-    given:
-    url:
-    institute:
-  symposium:
-  - family:
-    given:
-    url:
-    institute:
-  local:
-  - family:
-    given:
-    url:
-    institute:
-  sponsors:
-  - name:
-    url:
+  - 2020-09-14
+  - 2020-09-15
+  - 2020-09-16
+  - 2020-09-17
+  organizers:
+    - {given: Mauricio, family: Alvarez, url: "https://maalvarezl.github.io/", institute: University of Sheffield}
+    - {given: Javier, family: Gonzalez, url: "http://javiergonzalezh.github.io/", institute: Amazon Cambridge}
+    - {given: Neil D., family: Lawrence, url: "http://inverseprobability.com", institute: University of Sheffield}
+    - {given: Richard, family: Wilkinson, url: "http://r-wilkinson.staff.shef.ac.uk/", institute: University of Sheffield}
+    - {given: Wil, family: Ward, url: "https://wilocw.github.io/", institute: University of Sheffield}
+    - {given: Michael T., family: Smith, url: "http://www.michaeltsmith.org.uk/", institute: University of Sheffield}
+    - {given: Fariba, family: Yousefi, url: "https://www.dcs.shef.ac.uk/cgi-intranet/public/makeperson?F.Yousefi", institute: University of Sheffield}
+    - {given: Juan Jose, family: Giraldo Gutierrez, url: "http://www.dcs.shef.ac.uk/cgi-intranet/public/makeperson?J.Giraldo_Gutierrez", institute: University of Sheffield}
+    - {given: "", family: Sheffield Machine Learning Group, url: "https://www.sheffield.ac.uk/dcs/research/groups/machine-learning"}
+
 previous_meeting:
-  name:
-  url:
+  name: Past Meetings
+  url: "http://gpss.cc/past_meetings.html"
 
 map:
-  show: False
+  show: true
   mapbox:
-    latitude: # latitude of map center
-    longitude: # longitude of map center
-    map_id: # mapbox id
-    access_token: # mapbox access token
-    zoom_level: 17
+    latitude: 53.385396 # latitude of map center
+    longitude: -1.472726 # longitude of map center
+    map_id1: maalvarezl # mapbox id1
+    map_id2: cj6hz56fb4q9l2rpajqiqw5ki # mapbox id2
+    fresh: true
+    title: false
+    access_token: pk.eyJ1IjoibWFhbHZhcmV6bCIsImEiOiJjajY1Nmo1b3gxb2d2Mndub2dyeDNsa2IzIn0.qLCz36sKjWARW8EBSy2fAQ # mapbox access token
+    zoom_level: 14.5
     width: 100%
     height: 500px
