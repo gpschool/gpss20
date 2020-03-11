@@ -53,7 +53,7 @@ conference:
   organizers:
     - {given: Mauricio, family: Alvarez, url: "https://maalvarezl.github.io/", institute: University of Sheffield}
     - {given: Javier, family: Gonzalez, url: "http://javiergonzalezh.github.io/", institute: Amazon Cambridge}
-    - {given: Neil D., family: Lawrence, url: "http://inverseprobability.com", institute: University of Sheffield}
+    - {given: Neil D., family: Lawrence, url: "http://inverseprobability.com", institute: University of Cambridge}
     - {given: Richard, family: Wilkinson, url: "http://r-wilkinson.staff.shef.ac.uk/", institute: University of Sheffield}
     - {given: Wil, family: Ward, url: "https://wilocw.github.io/", institute: University of Sheffield}
     - {given: Michael T., family: Smith, url: "http://www.michaeltsmith.org.uk/", institute: University of Sheffield}
