@@ -19,7 +19,7 @@ Industrial and Other Non-Academic |      100             |
 
 [//]: # (If you want to be added to the waiting list, please [contact us](mailto:mauricio.alvarez@sheffield.ac.uk).)
 
-**All rates are in £(GBP). Registrations will stay open on June 22 and stay open until September 14**
+**All rates are in £(GBP). Registrations will open on June 22 and stay open until September 14**
 
 [//]: # (Registrations will open at the end of April.)
 
