@@ -39,9 +39,6 @@ conference:
   hide_tentative: true
   hosts:
 
-  room: Virtual
-  venue: 
-  location: 
   name: Gaussian Process Summer School
   year: 2020
   month: September
