@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Registration
-weight: 3
+weight: 4
 ---
 
 #### Registration for the Gaussian Processes and Uncertainty Quantification Summer School, 2020.
