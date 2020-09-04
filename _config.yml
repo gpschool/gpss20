@@ -55,7 +55,7 @@ conference:
     - {given: Wil, family: Ward, url: "https://wilocw.github.io/", institute: University of Sheffield}
     - {given: Michael T., family: Smith, url: "http://www.michaeltsmith.org.uk/", institute: University of Sheffield}
     - {given: "", family: Sheffield Machine Learning Group, url: "https://www.sheffield.ac.uk/dcs/research/groups/machine-learning"}
-    - {given: "", family: Sheffield Machine Learning Network, url: "https://sheffieldmlnet.github.io/"}
+    - {given: "", family: Sheffield Machine Learning Research Network, url: "https://sheffieldmlnet.github.io/"}
 
 
 previous_meeting:
