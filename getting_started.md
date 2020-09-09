@@ -5,13 +5,13 @@ weight: 3
 ---
 
 
-## To be updated
+## Introduction 
 
-<!-- 
+The Gaussian Process Summer School will include some hands-on tutorials in which we will build some simple Gaussian process models. The tutorials will be in Python, featuring the open source _GPy package_ that has been developed by the Machine Learning group at the University of Sheffield.
 
-The Gaussian Process Summer School will include some hands-on tutorials in which we will build some simple Gaussian process models. The tutorials will be in Python, featuring the open source _GPy package_ that has been developed by the Machine Learning group at the University of Sheffield. 
+Labs will take place via Zoom. Participants will be divided into breakout rooms. Each room will have a dedicated lab helper.
 
-**Please bring your own laptop.** Prior Python programming skills are not required, however you should ensure that you have installed the appropriate version of Python and the packages/libraries we will be using:
+Prior Python programming skills are not required, however you should ensure that you have installed the appropriate version of Python and the packages/libraries we will be using:
 
 - **Python 3.6**
 - `numpy`
@@ -31,7 +31,7 @@ All labs are in a format called "_notebooks_", which can be run using [Jupyter](
 
 This year, we are hosting the labs on Binder, a cloud-based environment that you can use to run labs in. You can run the labs in Binder from your browser, without the need to setup a python environment locally on your machine.
 
-To access the labs on Binder, follow the appropriate links on the [Labs](./labs) page. We recommend using Binder during the lab sessions.
+To access the labs on Binder, follow the appropriate links on the [Labs](./labs) page. We recommend using Binder during the lab sessions. Note that due to high numbers of participants and limits on concurrent users in Binder, you may have to use one of the mirror lab, if you are unable to load a lab.
 
 **Remember to download your notebooks if you would like to save them, as changes made will not be saved across different sessions.**
 
@@ -178,4 +178,3 @@ $ pip install git+https://github.com/BRML/climin
 ``` 
 
 **Do not install `climin` from PyPI -- ensure you use the GitHub version as instructed**
--->
