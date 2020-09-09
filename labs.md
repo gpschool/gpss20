@@ -8,7 +8,7 @@ The labs for the Gaussian Process Summer School can be downloaded here. All of t
 
 Each lab sheet will be made available on the day of the lab, and answers for each will be made shortly after. There are also some extra work sheets, for you to explore in your own time, which give details of other uses of Gaussian processes not covered in the summer school.
 
-Details of how to set up your Python environment and on the installation of the necessary libraries are available on the [Getting Started](../getting_started) page. Ensure you have completed the setup before starting the labs. We recommend that you use Binder during the lab sessions.
+Details of how to set up your Python environment and on the installation of the necessary libraries are available on the [Getting Started](../gpss20/getting_started) page. Ensure you have completed the setup before starting the labs. We recommend that you use Binder during the lab sessions.
 
 <!--
 To view and run the full list of labs, click here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gpschool/labs/2020?filepath=2020%2F). Alternatively, you can use the corresponding links for each lab.
