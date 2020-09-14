@@ -22,7 +22,7 @@ follow instructions for [running labs on your local machine](../gpss20/getting_s
 This lab is designed to introduce Gaussian processes in a practical way, illustrating the concepts introduced in the first two lectures. The key aspects of Gaussian process regression are covered: the covariance function (aka kernels); sampling a Gaussian process; and the regression model. The notebook will introduce the open source Python library GPy which handles the kernels, regression and optimisation of hyperparameter, allowing us to easily access the results we want.
 
 [![Download](https://img.shields.io/badge/download-lab%201-green)](https://github.com/gpschool/labs/raw/2020/2020/lab_1.ipynb) &nbsp;&nbsp;&nbsp; [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gpschool/labs/2020?filepath=2020%2Flab_1.ipynb) &nbsp;&nbsp;&nbsp;[![Mirror 1](https://img.shields.io/badge/mirror%201-binder-blueviolet)](https://mybinder.org/v2/gh/wilocw/labs/2020?filepath=2020%2Flab_1.ipynb)&nbsp;&nbsp;&nbsp; [![Mirror 2](https://img.shields.io/badge/mirror%202-binder-blueviolet)](https://mybinder.org/v2/gh/SheffieldMLNet/labs/2020?filepath=2020%2Flab_1.ipynb)&nbsp;&nbsp;&nbsp;
-<!--[![Answers](https://img.shields.io/badge/answers-nbviewer-green)](https://nbviewer.jupyter.org/github/gpschool/labs/blob/2020/2020/.answers/lab_1.ipynb)-->
+[![Answers](https://img.shields.io/badge/answers-nbviewer-green)](https://nbviewer.jupyter.org/github/gpschool/labs/blob/2020/2020/.answers/lab_1.ipynb)
 
 Resources: [mauna_loa](https://github.com/gpschool/labs/raw/2020/.resources/mauna_loa)
 
@@ -30,7 +30,7 @@ Resources: [mauna_loa](https://github.com/gpschool/labs/raw/2020/.resources/maun
 This lab is an extension on the work introduced in Lab 1 of the summer school. It is more advanced, and you should make sure you've completed Lab 1 before attempting. It is designed to demonstrate the advantage of using models when we have only a small number of observations of a latent function.
 
 [![Download](https://img.shields.io/badge/download-lab%201%20extra-green)](https://github.com/gpschool/labs/raw/2020/2020/lab_1_extra.ipynb)&nbsp;&nbsp;&nbsp;[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gpschool/labs/2020?filepath=2020%2Flab_1_extra.ipynb)&nbsp;&nbsp;&nbsp;[![Mirror 1](https://img.shields.io/badge/mirror%201-binder-blueviolet)](https://mybinder.org/v2/gh/wilocw/labs/2020?filepath=2020%2Flab_1_extra.ipynb)&nbsp;&nbsp;&nbsp; [![Mirror 2](https://img.shields.io/badge/mirror%202-binder-blueviolet)](https://mybinder.org/v2/gh/SheffieldMLNet/labs/2020?filepath=2020%2Flab_1_extra.ipynb)&nbsp;&nbsp;&nbsp;
-<!--[![Answers](https://img.shields.io/badge/answers-nbviewer-green)](https://nbviewer.jupyter.org/github/gpschool/labs/blob/2020/2020/.answers/lab_1_extra.ipynb)-->
+[![Answers](https://img.shields.io/badge/answers-nbviewer-green)](https://nbviewer.jupyter.org/github/gpschool/labs/blob/2020/2020/.answers/lab_1_extra.ipynb)
 
 <!--
 ### Lab 2: GPs for Non-Gaussian Likelihoods and Big Data
