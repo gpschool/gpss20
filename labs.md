@@ -46,7 +46,7 @@ You will need to also download the banana.csv dataset for one of the examples in
 
 Resources: [olympic_marathon_men](https://github.com/gpschool/labs/raw/2020/.resources/olympic_marathon_men) | [banana.csv](https://github.com/gpschool/labs/raw/2020/.resources/banana.csv) 
 
-**Note: ensure you have installed libraries, particularly `climin`, as per the instructions in [Getting Started](./getting_started). Installing `climin` using `$ pip install climin` **will not work** with the labs as this is Python 2 only. Remove it, and follow the instructions.**
+**Note: ensure you have installed libraries, particularly `climin`, as per the instructions in [Getting Started](./getting_started). Installing `climin` using `$ pip install climin` _will not work_ with the labs as this is Python 2 only. Remove it, and follow the instructions.**
 
 <!--
 #### Lab 2 Extra: Deep Gaussian Processes
