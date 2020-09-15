@@ -40,7 +40,7 @@ As with Lab 1, the notebook uses GPy for handling the regression model and likel
 
 You will need to also download the banana.csv dataset for one of the examples in the lab.
 
-[![Download](https://img.shields.io/badge/download-lab%202-green)](httpsa://github.com/gpschool/labs/raw/2020/2020/lab_2.ipynb)&nbsp;&nbsp;&nbsp;[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gpschool/labs/2020?filepath=2020%2Flab_2.ipynb)&nbsp;&nbsp;&nbsp;[![Mirror 1](https://img.shields.io/badge/mirror%201-binder-blueviolet)](https://mybinder.org/v2/gh/wilocw/labs/2020?filepath=2020%2Flab_2.ipynb)&nbsp;&nbsp;&nbsp; [![Mirror 2](https://img.shields.io/badge/mirror%202-binder-blueviolet)](https://mybinder.org/v2/gh/SheffieldMLNet/labs/2020?filepath=2020%2Flab_2.ipynb)&nbsp;&nbsp;&nbsp;
+[![Download](https://img.shields.io/badge/download-lab%202-green)](https://github.com/gpschool/labs/raw/2020/2020/lab_2.ipynb)&nbsp;&nbsp;&nbsp;[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gpschool/labs/2020?filepath=2020%2Flab_2.ipynb)&nbsp;&nbsp;&nbsp;[![Mirror 1](https://img.shields.io/badge/mirror%201-binder-blueviolet)](https://mybinder.org/v2/gh/wilocw/labs/2020?filepath=2020%2Flab_2.ipynb)&nbsp;&nbsp;&nbsp; [![Mirror 2](https://img.shields.io/badge/mirror%202-binder-blueviolet)](https://mybinder.org/v2/gh/SheffieldMLNet/labs/2020?filepath=2020%2Flab_2.ipynb)&nbsp;&nbsp;&nbsp;
 <!--[![Answers](https://img.shields.io/badge/answers-nbviewer-green)](https://nbviewer.jupyter.org/github/gpschool/labs/blob/2020/2020/.answers/lab_2.ipynb)-->
 
 
