@@ -8,7 +8,12 @@ url: "http://gpss.cc" # the base hostname & protocol for your site
 logo: "gpss_logo.svg"
 twitter_username: sheffieldmlnet
 github_username:  gpschool
-
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: gpschool/jekyll-theme
+style: gpss
 
 youtube:
   height: 315
@@ -16,7 +21,7 @@ youtube:
 
 github:
   edit: true
-  repository: gpss19
+  repository: gpss20
 
 markdown: kramdown
 
