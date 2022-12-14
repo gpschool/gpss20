@@ -33,7 +33,7 @@ banner:
 
 analytics:
  google:
-   tracking_id: UA-62991754-1# Google tracking ID if applicable
+   tracking_id: UA-62991754-1 
 
 youtube:
   height: 315

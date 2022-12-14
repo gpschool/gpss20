@@ -1,1 +1,0 @@
-<li style='margin-bottom:0.5em'><b><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></b> ({{ post.date | date: "%A, %B %-d" }})<br>{% if post.organizers %}{% assign lastone = post.organizers | last %}{% for person in post.organizers %}{% include listperson.html %}{% endfor %}{% endif %}{% if post.room %}<br>Room: <b>{{ post.room }}</b>{% endif %}</li>
