@@ -4,7 +4,7 @@ _confweb
 This is a repository for easily creating conferences. To create your own conference create a repo in your username with your confname then type.
 
 ```
-$ git clone --bare https://github.com/sods/_confweb.git
+$ git clone --bare https://github.com/gpss/_confweb.git
 $ cd _confweb.git
 $ git push --mirror https://github.com/USERNAME/CONFNAME.git
 $ cd ..
@@ -19,7 +19,7 @@ Then you can clone the new website as normal.
 The main settings can be found in the ```_config.yml``` file. They include conference location, name, year, days of operation.
 
 
-Then a few layout files are added
+A few layout files are provided by the base jekyll class, `gpschool/jekyll-theme`
 
 ```
 _layouts/program.html
@@ -32,7 +32,7 @@ _layouts/about.html
 
 These dictate how the program is displayed. ```single.html``` and ```multi.html`` are for single and multiple track sessions. 
 
-There are some include files for bits of html which are need about the place.
+Also in the theme are some include files for bits of html which are need about the place.
 
 ```
 _includes/listperson.html
