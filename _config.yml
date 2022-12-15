@@ -43,7 +43,10 @@ conference:
   draft: false # set to True if the programme is draft only.
   hide_tentative: true
   hosts:
-
+  short_name: GPSS
+  full_name:  Gaussian Process and Uncertainty Quantification Summer School
+  venue: Virtual
+  location: Virtual Conference
   name: Gaussian Process Summer School
   year: 2020
   month: September
@@ -52,7 +55,9 @@ conference:
   - 2020-09-15
   - 2020-09-16
   - 2020-09-17
-  organizers:
+  chairs:
+  - type: Organizers
+    people:
     - {given: Mauricio, family: Alvarez, url: "https://maalvarezl.github.io/", institute: University of Sheffield}
     - {given: Javier, family: Gonzalez, url: "https://javiergonzalezh.github.io/", institute: Microsoft Research Cambridge}
     - {given: Neil D., family: Lawrence, url: "https://inverseprobability.com", institute: University of Cambridge}
