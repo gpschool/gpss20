@@ -4,7 +4,7 @@ email:
 description: > # this means to ignore newlines until "baseurl:"
   Gaussian Process Summer School
 baseurl: "/gpss20" # the subpath of your site, e.g. /blog/
-url: "http://gpss.cc" # the base hostname & protocol for your site
+url: "https://gpss.cc" # the base hostname & protocol for your site
 logo: "gpss_logo.svg"
 twitter_username: sheffieldmlnet
 github_username:  gpschool
@@ -54,9 +54,9 @@ conference:
   - 2020-09-17
   organizers:
     - {given: Mauricio, family: Alvarez, url: "https://maalvarezl.github.io/", institute: University of Sheffield}
-    - {given: Javier, family: Gonzalez, url: "http://javiergonzalezh.github.io/", institute: Microsoft Research Cambridge}
-    - {given: Neil D., family: Lawrence, url: "http://inverseprobability.com", institute: University of Cambridge}
-    - {given: Richard, family: Wilkinson, url: "http://r-wilkinson.staff.shef.ac.uk/", institute: University of Nottingham}
+    - {given: Javier, family: Gonzalez, url: "https://javiergonzalezh.github.io/", institute: Microsoft Research Cambridge}
+    - {given: Neil D., family: Lawrence, url: "https://inverseprobability.com", institute: University of Cambridge}
+    - {given: Richard, family: Wilkinson, url: "https://r-wilkinson.staff.shef.ac.uk/", institute: University of Nottingham}
     - {given: Wil, family: Ward, url: "https://wilocw.github.io/", institute: University of Sheffield}
     - {given: Michael T., family: Smith, url: "http://www.michaeltsmith.org.uk/", institute: University of Sheffield}
     - {given: "", family: Sheffield Machine Learning Group, url: "https://www.sheffield.ac.uk/dcs/research/groups/machine-learning"}
@@ -64,8 +64,8 @@ conference:
 
 
 previous_meeting:
-  name: Past Meetings
-  url: "http://gpss.cc/past_meetings.html"
+  name: GPSS 2019
+  url: "http:s//gpss.cc/gpss19"
 
 map:
   show: false
